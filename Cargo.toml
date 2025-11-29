@@ -1,0 +1,11 @@
+[package]
+name = "cpu_watcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.37"
+systray = "0.4"
+
+[build-dependencies]
+winres = "0.1"
